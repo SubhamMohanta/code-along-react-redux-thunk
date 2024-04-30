@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f3f4f6;
+  color: black;
+}
+
+button {
+  padding: 1% 2%;
+  margin-top: 2%;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  background-color: #fff;
+  box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.1);
+}
+    
+fieldset {
+  margin: 10px;
+  padding: 15px;
+  border: none;
+  box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  background-color: rgb(255, 255, 255);
+}
+    
+legend {
+  background: linear-gradient(113deg, #FECC80 0%, #CE7DFF 53.56%, #5E5BFF 100%);
+  padding: 1vmin;
+  border-radius: 5px;
+  font-size: 24px;
+  font-weight: 600;
+}
+    
+p {
+  margin-bottom: 5px;
+}
